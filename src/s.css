@@ -1,0 +1,209 @@
+
+          .carousel-inner > .item > img,
+          .carousel-inner > .item > a > img 
+          {
+            height:200px;
+            width: 100%;
+           
+          }
+          .bgimggg{
+              
+            background-image: linear-gradient(rgb(166, 165, 190),white); 
+            
+            background-attachment: fixed;
+            width:100%;
+            
+            color:black;
+        } 
+          .bgim{
+           
+            background-image: url('../src/img/g14.jpg'); 
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            width:100%;
+            height:650px;
+        }   
+       
+          .bgimgg{
+              
+            background-image: url('../src/img/g15.jpg'); 
+            background-size: 100% 100%;
+            background-attachment: fixed;
+            width:100%;
+            height:650px;
+            color: white;
+        }  
+         
+        /* .form-group
+        {
+            margin-right: 60%;
+            color: rgb(243, 245, 245);
+            font-size: 12px;
+        }   */
+       
+
+
+
+.bgimg{
+    background-image: url('../src/img/g13.jpg'); 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width:100%;
+    height:650px;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+ 
+    .ul
+       {
+                list-style-type: none;
+                margin: 0%;
+                padding: 10px;
+                overflow: hidden;
+            background-image: linear-gradient(white, yellow,white );
+            
+       }
+    .li
+    {
+        
+        float: left;
+      
+    }
+    .hii
+    {
+    
+        height: 900px;
+        
+    }
+     .dropbutton li 
+        {
+            display: inline-block;
+            position: relative;
+            color: blue;
+            text-align: center;
+            padding: 10px 10px;
+            font-size: 24%;
+            text-decoration: none;
+        }
+    .li.dropdown
+        {
+            display: inline-block;
+        }
+    .li a:hover,.dropbutton:hover .dropbtn
+        {
+          color: darkblue;
+        }
+    .drop-content a
+        {
+           color: white;
+           padding: 12 px 16 px;
+           text-decoration: blue;
+           display: block;
+           text-align: left;
+        }
+    .drop-content a:hover
+        {
+            background-image: linear-gradient(white, yellow,white );
+        }
+    .dropdown:hover .drop-content
+        {
+            display: block;
+        }
+    .drop-content
+        {
+           display: none;
+           position:absolute;
+           background-color: rgb(102, 87, 111);
+           min-width: 180px;
+           box-shadow: 0px 8px 20px 0px rgba(0, 0,10, 2);
+           z-index: 1;
+        }
+        .input{
+            display: inline-block;  
+              }
+
+.section{
+
+        width: 30%;
+        height: 60%;
+        margin-top: 0px;
+       
+        padding: 10px 0px 0px 0px;
+}
+.k
+{
+    width: 20%;
+        height: 20%;
+        margin-top: 0px;
+
+}
+        
+   .loginPanel
+    {
+        background-image: linear-gradient(orange, green,orange );
+        width: 12%px;
+        height: 400px;
+        margin-top: 0px;
+        padding: 10px 0px 0px 0px;
+        display: inline-block;
+    }
+    .middlePanel
+    {
+       
+        width: 65%px;
+        height: 400px;
+        margin-left: 10px;
+        display: inline-block;
+       
+    }
+    .container {
+        min-height: 0%;
+        
+      }
+    
+    .p{
+    background-image: linear-gradient(cyan,white, yellow );
+    font-size:15px;
+    }
+    .scrollTxt{ 
+        font-size:16px;
+    
+    }
+ .hq{
+     height: 0%;
+    text-align: center;
+    
+ }
+ .hw{
+     height: 200px;
+     margin-top: -100px;
+ }
+ .hm{
+  font-size: 200%;   
+  padding: 200px 0px 0px 0px;
+  margin-left: 50%;
+
+}
+#cl1
+{
+    font-size: 200%;
+    padding: 80px 0px 0px 0px;
+    width: 50%;
+    margin-right: 90%;
+    margin-left: auto;
+}
+#collapsenavbar
+{
+    font-size: 150%;
+}
+#nav
+{
+    width: auto;
+}
+#loginlink
+{
+    margin-left: 5%;
+}

@@ -1,0 +1,22 @@
+@media all and (min-width: 480px) {
+
+    .Login {
+      padding: 100px 0;
+      color:black;
+
+    }
+    #area {
+      padding: 100px 0;
+      color:white;
+
+    }
+  
+    #area {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+    .Login form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
