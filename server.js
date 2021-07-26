@@ -9,23 +9,6 @@ mongoose.connect('mongodb://127.0.0.1:27017/user-manager', { useNewUrlParser: tr
   .catch(err => console.error(err));
 
 
-// Mlab Database
-// mongoose.connect('mongodb://nikhil:nikhil001@ds263107.mlab.com:63107/bciit', {
-//   auth: {
-//     user: 'nikhil',
-//     password: 'nikhil001'
-//   }}
-// )
-// .then(() => console.log('Connected to database...'))
-// .catch(err => console.error(err));
-
-
-
-
-// mongoose.connect('mongodb://nikhilkumar:Nikhil@001@ds263107.mlab.com:63107/bciit', { useNewUrlParser: true })
-
-
-
 // Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
